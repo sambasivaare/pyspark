@@ -1,0 +1,6 @@
+--create table if not exists samba.samba_schema.dept( Deptno INT, Dname STRING, Loc STRING);
+--select * from samba.samba_schema.dept;
+insert into samba.samba_schema.dept values(10,'ACCOUNTING','NEW YORK'),
+(20,'RESEARCH','DALLAS'),
+(30,'SALES','CHICAGO'),
+(40,'OPERATIONS','BOSTON');
