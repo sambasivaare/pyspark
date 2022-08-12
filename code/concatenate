@@ -1,0 +1,4 @@
+select * from emp;
+//select empno, ename,sal, 'my emp id is :'||empno||'my name is :'||ename||' and my salary is:'||sal as "my details" from emp;
+// or
+select empno, ename,sal,concat( 'my emp id is :',empno,'my name is :',ename,' and my salary is:',sal) as "my details" from emp;
