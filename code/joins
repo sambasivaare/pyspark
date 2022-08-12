@@ -1,0 +1,12 @@
+//select * from emp as e
+//inner join dept as d
+//left outer join dept as d
+//right outer join dept as d
+//full outer join dept as d
+//full outer join dept as d
+//on e.deptno = d.deptno
+//where e.deptno is null
+
+select * from emp as e
+where e.deptno  not in 
+(select deptno from dept);
